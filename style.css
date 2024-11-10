@@ -1,0 +1,48 @@
+:root{
+
+    --and : linear-gradient(to right , blue , red);
+}
+*{
+    margin: 0;
+}
+body{
+
+    background-color: rgb(4, 0, 0);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.header{
+    background-image: var(--and);
+    z-index: 4;
+    overflow: hidden;
+}
+h2{
+
+    font-family: 'Arial Narrow Bold', sans-serif;
+    z-index: 2;
+    color: whitesmoke;
+    opacity: 0.3;
+    filter: drop-shadow(5px 3px black);
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family:cursive , 'Segoe UI';
+}
+p{
+    margin-bottom: 30px;
+}
+.main{
+    display: block;
+    padding-top: 100px;
+}
+.footer{
+    display: flex;
+    align-items:flex-end;
+    justify-self: right;
+    height: 200px;
+    margin-right: 90px;
+}

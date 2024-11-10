@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+body{
+    text-align: center;
+    background-color: rgb(2, 2, 2);
+    color: rgb(255, 255, 255);
+}
+#myH3{
+    font-size:2rem;
+    font-family: 'Segoe UI';
+    color: rgb(0, 98, 255);
+}
+p{
+    font-size:1.3rem;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: darkcyan;
+}
+label{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(1, 49, 84);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 12px;
+}
+#mySubmit{
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 500;
+    font-family: fantasy;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#myCir,#myArea{
+    margin-bottom: 20px;
+}
